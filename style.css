@@ -1,0 +1,22 @@
+body {
+  font-family:sans-serif;
+  overflow: hidden;
+}
+.card{
+	overflow-wrap: anywhere;
+	height: 200px;
+	max-width: 200px;
+	text-align: center;
+}
+.image{
+	width: 100%;
+	background: #80808054;
+	min-height: 100px;
+}
+.flex{
+	min-height: 100vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
